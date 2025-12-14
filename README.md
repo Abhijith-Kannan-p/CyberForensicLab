@@ -4,7 +4,7 @@ An immersive 3D network visualization dashboard that uses machine learning (XGBo
 
 ## Features
 
-### 🎯 3D Network Visualization
+###  3D Network Visualization
 - **Interactive 3D Network Graph**: Each node represents a device/server/system
 - **Animated Edges**: Network communication visualized as animated neon lines
 - **Dynamic Node Styling**: 
@@ -14,30 +14,30 @@ An immersive 3D network visualization dashboard that uses machine learning (XGBo
 - **Camera Controls**: Pan, rotate, zoom, and orbit around the network
 - **Auto-focus**: Camera automatically focuses on suspicious nodes
 
-### 🎨 Real-Time Threat Visualization
+###  Real-Time Threat Visualization
 - **Attack Type Colors**:
-  - 🔵 Normal: Blue
-  - 🟣 Exploits: Purple
-  - 🟢 Reconnaissance: Green
-  - 🔴 Worms: Red
-  - 🟠 DoS: Orange
-  - 🟡 Fuzzers: Yellow
+  -  Normal: Blue
+  -  Exploits: Purple
+  -  Reconnaissance: Green
+  -  Worms: Red
+  -  DoS: Orange
+  -  Fuzzers: Yellow
 - **Anomaly Detection**: Nodes glow and pulse based on anomaly scores
 - **Attack Flows**: Animated neon arcs traveling between nodes
 
-### 📊 Dashboard & Analytics
+###  Dashboard & Analytics
 - **Attack Type Distribution**: Pie chart showing attack type breakdown
 - **Live Anomaly Graph**: Real-time anomaly score visualization
 - **Threat Log Table**: Sortable table with search functionality
 - **Node Details Panel**: Click any node to see detailed attack information
 
-### 🔧 Technical Stack
+###  Technical Stack
 - **Frontend**: React + Vite + Three.js + Tailwind CSS
 - **Backend**: Python Flask + Flask-SocketIO
 - **ML Models**: XGBoost (classification) + Isolation Forest (anomaly detection)
 - **Real-time**: WebSocket for live updates
 
-### 📊 Dataset & Model Architecture
+###  Dataset & Model Architecture
 
 **UNSW-NB15 Dataset Characteristics:**
 - UNSW-NB15 is extremely imbalanced. Rare classes like Worms have fewer than 50 samples, so the classifier maps them to dominant attack categories.
