@@ -1,9 +1,0 @@
-flask
-flask-socketio
-eventlet
-
-numpy
-pandas
-scikit-learn
-xgboost
-joblib
